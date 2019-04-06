@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  cursor: row-resize;
+}
+
+:host *,
+:host *:before,
+:host *:after {
+  box-sizing: border-box;
+}
+
+:host-context(author-pane[horizontal]) {
+  cursor: col-resize;
+}
